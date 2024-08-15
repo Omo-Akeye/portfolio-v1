@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* *{
+    background: rgb(29, 26, 29);
+    color: rgb(170, 170, 170);
+    font-family: "Raleway", sans-serif;
+}
+.back {
+    background-color: rgb(170, 170, 170);
+} */
+.vertical-text {
+    writing-mode: vertical-rl; 
+  }
+
+  
