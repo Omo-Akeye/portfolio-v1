@@ -6,7 +6,7 @@ export default function Nav() {
 
 
   return (
-    <nav className="fixed w-full py-3 shadow-lg bg-inherit">
+    <nav className="fixed w-full py-3 shadow-lg backdrop-blur">
       <div className="flex justify-between w-[80%] m-auto font-semibold ">
       <Link to="top" spy={true} smooth={true} duration={500} className="font-bold cursor-pointer font-fera">
         Akeye.

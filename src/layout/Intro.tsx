@@ -1,22 +1,32 @@
 import img from '../assets/IMG_0916-removebg-preview.png'
+import About from './About'
 
 export default function Intro() {
   return (
-    <>
+    <div className='min-h-[80vh] flex justify-center items-center'>
     
-<div className="md:flex md:items-center md:w-[80%] md:h-[80vh] mx-auto mt-20 w-[95%] md:justify-center md:gap-x-11">
-  <img src={img} alt="Akeye Saheed" className="rounded-lg max-w-60 max-md:mr-4 max-sm:mr-2 max-md:float-left max-md:w-44 max-sm:w-32" />
-  <div className="md:ml-4">
+<section>
+<div className=" w-[80%]  mx-auto mt-24  grid-cols-1 grid md:grid-cols-2 place-items-center " data-aos="fade-up">
+  <img src={img} alt="Akeye Saheed" className="rounded-lg max-w-64 max-md:w-52" />
+  <div className='max-md:mt-4' >
     <h3 className="font-bold md:text-xl font-fera">Hi I am</h3>
-    <h1 className="md:text-3xl font-extrabold uppercase font-fera text-[#1B9CF1] text-xl max-sm:my-1">Akeye Saheed.</h1>
+    <h1 className="md:text-4xl font-extrabold uppercase font-fera text-[#1B9CF1] text-xl ">Akeye Saheed.</h1>
     <p className='max-sm:text-sm'>
-      I am a <span className="md:text-xl font-bold uppercase text-[#1B9CF1] text-base">frontend developer</span> specializing in creating responsive and functional websites. Driven by curiosity, I transitioned from a Mathematics graduate to a full-time Frontend Developer. With a strong foundation in problem-solving, I thrive on crafting exceptional digital experiences. My passion for collaboration has led me to successfully lead and contribute to numerous development teams.
+      I am a <span className="md:text-xl font-bold uppercase text-[#1B9CF1] text-base">frontend developer</span> specialize in creating responsive,fast, accessible and visually appealing websites.Providing valuable solutions and amazing UI's to world problems through codes.
     </p>
-    
+    <span className="inline-flex items-center bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 my-2">
+               <span className="w-2 h-2 bg-green-500 rounded-full me-1"></span>
+                Available
+            </span> 
+
+            <div className='flex items-center gap-3'>
+            <i className="fa-solid fa-location-dot"></i> Nigeria
+            </div>
   </div>
 </div>
 
-<div className='flex justify-center w-full gap-2 mt-4 md:hidden'>
+
+<div className='flex justify-center gap-2 mt-4 w-[80%] md:hidden'>
   <p>Connect with me:</p>
   <ul className='flex justify-center gap-x-2'>
 <li><a href="https://github.com/Omo-Akeye">
@@ -37,6 +47,7 @@ export default function Intro() {
        </li>
 </ul>
 </div>
-
-</>
+<About/>
+</section>
+</div>
   ) }

@@ -1,6 +1,8 @@
 import getricht from '../assets/getricht.png'
 import multistep from '../assets/multiformlink.png'
 import finohub from '../assets/finohub.png'
+import usersettings from '../assets/Screenshot (54).png'
+import crappo from "../assets/Screenshot (55).png"
 
 
 const projects = [
@@ -8,16 +10,33 @@ const projects = [
     title: "GETRICHT FOOD WEB-APP",
     image: getricht,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, autem. Odit doloremque cupiditate tenetur esse quisquam modi magnam, ipsam earum iste cum dolorum error consequatur corporis eaque id commodi assumenda?",
+      "This is a meal website over 100.Users can also view,seach,filter over 100 meals from different categories. It also entails the recipe for all the meals",
     technologies: ["React", "Tailwindcss", "React Query", "React Router"],
     githubLink: "https://github.com/Omo-Akeye",
     liveDemoLink: "https://getricht-akey.netlify.app/",
   },
   {
+    title: "User Settings Dashboard",
+    image: usersettings,
+    description:
+      "This is dashboard with create,edit,delete,update and filter functionality",
+    technologies: ["React","MongoDB","Express","Node js","TypeScript","Tailwindcss","ShadCN ui"],
+    githubLink: "https://github.com/Omo-Akeye",
+    liveDemoLink: "https://usersettings-akeye.netlify.app/",
+  }, {
+    title: "Crappo Crypto",
+    image: crappo,
+    description:
+      "Landing page for crappo crypto",
+    technologies: ["HTML", "Tailwindcss", "AOS library"],
+    githubLink: "https://github.com/Omo-Akeye",
+    liveDemoLink: "https://crappo-akeye.netlify.app/",
+  },
+  {
     title: "Multi-Step Form",
     image: multistep,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, autem. Odit doloremque cupiditate tenetur esse quisquam modi magnam, ipsam earum iste cum dolorum error consequatur corporis eaque id commodi assumenda?",
+      "A custom subscription form",
     technologies: ["React", "Tailwindcss", "Custom Form Validation"],
     githubLink: "https://github.com/Omo-Akeye",
     liveDemoLink: "https://mutlistep-akeye.netlify.app/",
@@ -26,7 +45,7 @@ const projects = [
     title: "FINO HUB Landing Page",
     image: finohub,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, autem. Odit doloremque cupiditate tenetur esse quisquam modi magnam, ipsam earum iste cum dolorum error consequatur corporis eaque id commodi assumenda?",
+      "A landing page for a financial company",
     technologies: ["React", "Tailwindcss"],
     githubLink: "https://github.com/Omo-Akeye",
     liveDemoLink: "https://finohub-akey.netlify.app/",

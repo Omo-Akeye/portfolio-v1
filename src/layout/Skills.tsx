@@ -7,6 +7,9 @@ import tailwind from '../assets/tailwind.svg'
 import figma from '../assets/figma.svg'
 import typescript from '../assets/ts.png'
 import supabase from '../assets/supabase.jpg'
+import express from "../assets/express-facebook-share.png"
+import node from '../assets/node.jpg'
+import mongoDB from "../assets/mongodb.svg"
 
 
 const skills = [
@@ -27,8 +30,20 @@ const skills = [
         src: typescript
     },
     {
+        name:' Node js',
+        src: node
+    },
+    {
         name: 'React',
         src: react
+    },
+    {
+        name: 'MongoDB',
+        src: mongoDB
+    },
+    {
+        name: 'Express',
+        src: express
     },
     {
         name: 'Redux',

@@ -12,12 +12,12 @@ function App() {
  
   return (
     <div className={`${isDarkMode ? 'dark' : ''}`} id="top">
-      <div className="relative min-h-screen w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] dark:bg-[#000000] dark:bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] dark:text-white">
+      <div className="relative w-full min-h-screen bg-white dark:text-white dark:bg-[#030712]">
         <Nav />
         <div className="flex flex-col items-center justify-center min-h-screen">
           <Intro />
           <Skills />
-    
+          
           <Projects />
           <Contact />
         </div>
