@@ -11,7 +11,7 @@ export default function Intro() {
   <div className='max-md:mt-4' >
     <h3 className="font-bold md:text-xl font-fera">Hi I am</h3>
     <h1 className="md:text-4xl font-extrabold uppercase font-fera text-[#1B9CF1] text-xl ">Akeye Saheed.</h1>
-    <p className='max-sm:text-sm'>
+    <p className=' md:text-xl'>
       I am a <span className="md:text-xl font-bold uppercase text-[#1B9CF1] text-base">frontend developer</span> specialize in creating responsive,fast, accessible and visually appealing websites.Providing valuable solutions and amazing UI's to world problems through codes.
     </p>
     <span className="inline-flex items-center bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 my-2">

@@ -68,7 +68,7 @@ export default function Skills() {
     <div className="md:w-[80%] m-auto md:my-12 my-4 w-[90%]" id='skills'>
     <h1 className="font-bold text-7xl text-[#1B9CF1] max-md:text-4xl">SKILLS</h1>
     <p>I make use of languages and technologies such as:</p>
-    <ul className='flex gap-4 flex-wrap md:w-[80%] m-auto md:justify-center mt-4'>
+    <ul className='flex gap-4 flex-wrap md:w-[80%] m-auto md:justify-center mt-4 md:text-xl'>
 
         {skills.map(skill => 
             <li className='flex border-[1px] md:p-2 p-1 gap-4 items-center max-md:text-xs font-semibold' key={skill.name}>

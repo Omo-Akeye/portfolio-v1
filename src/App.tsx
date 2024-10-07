@@ -14,7 +14,7 @@ function App() {
     <div className={`${isDarkMode ? 'dark' : ''}`} id="top">
       <div className="relative w-full min-h-screen bg-white dark:text-white dark:bg-[#030712]">
         <Nav />
-        <div className="flex flex-col items-center justify-center min-h-screen">
+        <div className="flex flex-col items-center justify-center min-h-screen max-w-[1440px] mx-auto">
           <Intro />
           <Skills />
           

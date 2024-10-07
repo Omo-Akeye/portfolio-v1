@@ -56,9 +56,9 @@ export default function Projects() {
     <div className="md:w-[80%] m-auto md:mt-12 mt-4 w-[90%]" id='projects'>
        <h1 className="font-bold text-right md:text-7xl text-[#1B9CF1] mb-8 text-4xl">...PROJECTS</h1>
 
-       <ul>
+       <ul >
       {projects.map((project, index) => (
-        <li key={index} className='grid items-center p-2 my-4 border-2 md:grid-cols-2 max-md:text-sm'>
+        <li key={index} className='grid items-center p-2 my-6 border-2 md:my-10 md:grid-cols-2 max-md:text-sm '>
           <div>
             <img src={project.image} alt=""  />
           </div>
@@ -75,10 +75,10 @@ export default function Projects() {
                 </a>
             </div>
             <h1 className='my-3 font-bold'>{project.title}</h1>
-            <p>{project.description}</p>
+            <p className='md:text-xl'>{project.description}</p>
             <ul className='flex flex-wrap gap-2 mt-2'>
             {project.technologies.map((tech,index) => 
-            <li key={index} className='p-2 text-xs text-white bg-gray-700 md:text-sm font-fera rounded-xl'>{tech}</li>
+            <li key={index} className='p-2 text-xs text-white bg-gray-700 md:text-base font-fera rounded-xl'>{tech}</li>
             )}
             </ul>
             
