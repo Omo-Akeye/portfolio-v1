@@ -29,7 +29,7 @@ export default function SideBar() {
      </ul>
     </div>
      <div className="fixed right-[3%] bottom-0" >
-     <a href="mailto:akeyesunkanmi@gmail.com" className="text-sm font-bold font-fera vertical-text hover:text-[#1B9CF1]">akeyesunkanmi@gmail.com</a>
+     <a href="mailto:akeyesunkanmi@gmail.com" className="font-bold vertical-text hover:text-[#1B9CF1]">akeyesunkanmi@gmail.com</a>
      <span className="flex justify-center">
      <div className="w-[2px] h-24 back mt-4 bg-black dark:bg-white"></div>
      </span>

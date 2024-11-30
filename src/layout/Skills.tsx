@@ -10,9 +10,14 @@ import supabase from '../assets/supabase.jpg'
 import express from "../assets/express-facebook-share.png"
 import node from '../assets/node.jpg'
 import mongoDB from "../assets/mongodb.svg"
+import next from "../assets/nextjs.webp"
 
 
 const skills = [
+    {
+        name:'NextJS',
+        src: next
+    },
     {
         name: 'HTML',
         src: html

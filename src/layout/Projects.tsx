@@ -3,6 +3,7 @@ import multistep from '../assets/multiformlink.png'
 import finohub from '../assets/finohub.png'
 import usersettings from '../assets/Screenshot (54).png'
 import crappo from "../assets/Screenshot (55).png"
+import bime from "../assets/bime.png"
 
 
 const projects = [
@@ -10,16 +11,25 @@ const projects = [
     title: "GETRICHT FOOD WEB-APP",
     image: getricht,
     description:
-      "This is a meal website over 100.Users can also view,seach,filter over 100 meals from different categories. It also entails the recipe for all the meals",
+      "This a fully functional single page application built with React JS featuring the comprehensive recipe for over 100 meal recipes. Users can filter, search and save the recipe of meals from different categories,providing a seamless and user-friendly experience. I used React Router for dynamic route for smooth navigation around the web page and React query for data fetching.",
     technologies: ["React", "Tailwindcss", "React Query", "React Router"],
     githubLink: "https://github.com/Omo-Akeye",
     liveDemoLink: "https://getricht-akey.netlify.app/",
   },
   {
+    title: "BIME WEBSITE REVAMP",
+    image: bime,
+    description:
+      "A fully reponsive website with a landing page, sign up and login page",
+    technologies: ["NextJS", "Tailwindcss"],
+    githubLink: "https://github.com/Omo-Akeye",
+    liveDemoLink: "https://revamp-xi.vercel.app/",
+  },
+  {
     title: "User Settings Dashboard",
     image: usersettings,
     description:
-      "This is dashboard with create,edit,delete,update and filter functionality",
+      "This is a dashboard with create,edit,delete,update and filter functionality",
     technologies: ["React","MongoDB","Express","Node js","TypeScript","Tailwindcss","ShadCN ui"],
     githubLink: "https://github.com/Omo-Akeye",
     liveDemoLink: "https://usersettings-akeye.netlify.app/",
@@ -58,12 +68,12 @@ export default function Projects() {
 
        <ul >
       {projects.map((project, index) => (
-        <li key={index} className='grid items-center p-2 my-6 border-2 md:my-10 md:grid-cols-2 max-md:text-sm '>
+        <li key={index} className='grid items-center p-2 my-6 border-2 md:my-10 lg:grid-cols-2 '>
           <div>
             <img src={project.image} alt=""  />
           </div>
           <div className='p-5'>
-            <div className='flex justify-between font-fera'>
+            <div className='flex justify-between '>
               <a href={project.githubLink}>
                 Github
               <i className="ml-1 transition duration-300 ease-in-out delay-150 bg-transparent t fa-brands fa-github hover:text-white hover:-translate-y-1"></i>
@@ -78,7 +88,7 @@ export default function Projects() {
             <p className='md:text-xl'>{project.description}</p>
             <ul className='flex flex-wrap gap-2 mt-2'>
             {project.technologies.map((tech,index) => 
-            <li key={index} className='p-2 text-xs text-white bg-gray-700 md:text-base font-fera rounded-xl'>{tech}</li>
+            <li key={index} className='p-2 text-white bg-gray-700 rounded-xl max-md:text-sm'>{tech}</li>
             )}
             </ul>
             

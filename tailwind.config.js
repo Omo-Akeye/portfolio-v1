@@ -7,9 +7,6 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily:{
-      fera:["Fira Code",]
-    },
     extend: {
       colors:{
         'idk':'#1D1A1D'
